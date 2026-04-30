@@ -296,60 +296,46 @@
             </div>
 
            <div class="row schedule-item">
-         <div class="col-md-2"><time>09:20</time></div>
-<div class="col-md-10">
-  <h4>Keynote - <span><a href="" target="_blank">Marco Comuzzi</a></span></h4>
-  
-  <!-- Fixed Title -->
-  <p>
-    <strong>Title:</strong> Blockchains That Lived and Those That Died: A Design and Governance Perspective
-  </p>
+  <div class="col-md-2"><time>09:20</time></div>
+  <div class="col-md-10">
+    <h4>Keynote - <span><a href="" target="_blank">Marco Comuzzi</a></span></h4>
 
-  <!-- Clickable Abstract -->
-  <p>
-    <strong><a href="#" data-toggle="modal" data-target="#abstractModalMarco">Abstract</a></strong>
-  </p>
+    <p><strong>Title:</strong> Blockchains That Lived and Those That Died: A Design and Governance Perspective</p>
 
-  <p><a href="" target="_blank">Get the Slides</a></p>
-</div>
+    <!-- Simple clickable abstract -->
+    <p>
+      <a href="javascript:void(0);" onclick="document.getElementById('abstract-marco').style.display='block';">
+        <strong>Abstract</strong>
+      </a>
+    </p>
 
-<!-- Abstract Modal -->
-<div class="modal fade" id="abstractModalMarco" tabindex="-1" role="dialog" aria-labelledby="abstractModalLabelMarco" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
+    <!-- Hidden abstract box -->
+    <div id="abstract-marco" style="display:none; margin-top:10px; padding:15px; border:1px solid #ccc; background:#f9f9f9; position:relative;">
+      
+      <a href="javascript:void(0);" 
+         onclick="document.getElementById('abstract-marco').style.display='none';" 
+         style="position:absolute; top:8px; right:12px; text-decoration:none; font-size:20px;">
+         &times;
+      </a>
 
-      <div class="modal-header">
-        <h5 class="modal-title" id="abstractModalLabelMarco">
-          Blockchains That Lived and Those That Died: A Design and Governance Perspective
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
+      <p>
+        The blockchain hype has faded, but real-world blockchain applications have left a rich empirical footprint: some projects thrived, others quietly disappeared. Today, blockchain has reached a level of maturity where it often operates “under the hood” in enterprise systems, financial infrastructures, and public-service platforms, less visible than in the early hype cycles, yet increasingly embedded in critical processes.
+      </p>
 
-      <div class="modal-body">
-        <p>
-          The blockchain hype has faded, but real-world blockchain applications have left a rich empirical footprint: some projects thrived, others quietly disappeared. Today, blockchain has reached a level of maturity where it often operates “under the hood” in enterprise systems, financial infrastructures, and public-service platforms, less visible than in the early hype cycles, yet increasingly embedded in critical processes.
-        </p>
+      <p>
+        This talk revisits a selection of real-world blockchain initiatives, both successful deployments and notable failures, through the lens of a decision model that assesses the fit between blockchain variants (public, private, consortium) and specific business scenarios.
+      </p>
 
-        <p>
-          This talk revisits a selection of real-world blockchain initiatives, both successful deployments and notable failures, through the lens of a decision model that assesses the fit between blockchain variants (public, private, consortium) and specific business scenarios.
-        </p>
+      <p>
+        We analyze what went wrong in the projects that failed and what design and governance choices allowed the survivors to scale and persist.
+      </p>
 
-        <p>
-          We analyze what went wrong in the projects that failed and what design and governance choices allowed the survivors to scale and persist.
-        </p>
-
-        <p>
-          The key takeaway is that, for blockchain as for many system-level technologies, long-term success depends less on the raw technical features and more on network governance, incentive alignment, and adaptability to evolving operational requirements.
-        </p>
-      </div>
-
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-
+      <p>
+        The key takeaway is that, for blockchain as for many system-level technologies, long-term success depends less on the raw technical features and more on network governance, incentive alignment, and adaptability to evolving operational requirements.
+      </p>
     </div>
+
+    <p><a href="" target="_blank">Get the Slides</a></p>
   </div>
 </div>
 
